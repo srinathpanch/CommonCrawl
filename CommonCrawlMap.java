@@ -29,7 +29,7 @@ public class CommonCrawlMap {
 			int i = 1;
 			try {
 				Class.forName("com.mysql.jdbc.Driver");
-				Connection con = DriverManager.getConnection("jdbc:mysql://ccinstance.c1mcasvph2xx.us-east-1.rds.amazonaws.com/commoncrawl", "srinath", "uppal143");
+				Connection con = DriverManager.getConnection("jdbc:mysql://ccinstance.c1mcasvph2xx.us-east-1.rds.amazonaws.com/commoncrawl", "srinath", "******");
 
 				for (ArchiveRecord r : value) {
 					try {
