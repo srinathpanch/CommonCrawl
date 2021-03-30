@@ -1,6 +1,6 @@
 <?php
 
-    $db = mysqli_connect('ccinstance.c1mcasvph2xx.us-east-1.rds.amazonaws.com','srinath','uppal143','commoncrawl')
+    $db = mysqli_connect('ccinstance.c1mcasvph2xx.us-east-1.rds.amazonaws.com','srinath','******','commoncrawl')
     or die('Error connecting to MySQL server.');
     $URL = $_GET['URL'];
     /*$Sno = $_GET['sno'];
